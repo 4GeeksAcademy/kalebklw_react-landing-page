@@ -1,13 +1,14 @@
 import React from "react";
 import Navigation from "./Navigation";
+import Cards from "./Cards";
 
-
-const HomePage = () =>{
+const Home = () =>{
 	return(
 		<div>
 			<Navigation />
+			<Cards />
 		</div>
 	)
 };
 
-export default HomePage;
+export default Home;
