@@ -13,16 +13,16 @@ const Navigation = ()=>{
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" href="#" style={{color: "white"}}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
+                                <a className="nav-link" href="#" style={{color: "white"}}>About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a>
+                                <a className="nav-link" href="#" style={{color: "white"}}>Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <a className="nav-link" href="#" style={{color: "white"}}>Contact</a>
                             </li>
                         </ul>
                     </div>

@@ -40,7 +40,6 @@ const Home = () =>{
 		<div>
 			<Navigation />
 			<Jumbotron />
-			<div>
 			<div className="d-flex justify-content-center">
 				{cardTitlesPro.map(
 					(item) =>{
@@ -52,8 +51,9 @@ const Home = () =>{
 					}
 				)}
 			</div>
-			</div>
+			<div className="d-flex" style={{minHeight: "59vh", flexDirection: "column"}}>
 			<Footer />
+			</div>
 		</div>
 	)
 };
