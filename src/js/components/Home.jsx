@@ -51,6 +51,8 @@ const Home = () =>{
 					}
 				)}
 			</div>
+			{/* Note to self: The two styles within this div are to help with the footer to be placed at the bottom permanently. 
+				Note Cont. specifically, the minHeight is to select the whole page.*/}
 			<div className="d-flex" style={{minHeight: "59vh", flexDirection: "column"}}>
 			<Footer />
 			</div>
